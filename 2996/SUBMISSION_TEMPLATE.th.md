@@ -135,31 +135,31 @@ Step 3:ถ้าใช่ให้พิมพ์ lower_word[::-1]
 ทำไมเลือก case นี้:
 
 ```text
-
+กันคนลืมใส่ให้แปลงเป็นตัวพิมพ์เล็ก
 ```
 
 Input:
 
 ```text
-
+Soonn
 ```
 
 Expected output:
 
 ```text
-
+nnoos
 ```
 
 Actual output:
 
 ```text
-
+nnooS
 ```
 
 Result:
 
 ```text
-Pass / Not Pass
+Not Pass
 ```
 
 ### Test Case 2
@@ -167,31 +167,31 @@ Pass / Not Pass
 ทำไมเลือก case นี้:
 
 ```text
-
+กันคนเขียนกลับด้านผิด
 ```
 
 Input:
 
 ```text
-
+karry
 ```
 
 Expected output:
 
 ```text
-
+yrrak
 ```
 
 Actual output:
 
 ```text
-
+ykarr
 ```
 
 Result:
 
 ```text
-Pass / Not Pass
+Not Pass
 ```
 
 ### Test Case 3
@@ -199,31 +199,31 @@ Pass / Not Pass
 ทำไมเลือก case นี้:
 
 ```text
-
+กันคนคิดเยอะ
 ```
 
 Input:
 
 ```text
-
+puri
 ```
 
 Expected output:
 
 ```text
-
+irup
 ```
 
 Actual output:
 
 ```text
-
+ว่างเปล่า
 ```
 
 Result:
 
 ```text
-Pass / Not Pass
+Not Pass
 ```
 
 ---
@@ -233,7 +233,7 @@ Pass / Not Pass
 ใช้ AI กับโจทย์นี้หรือไม่
 
 ```text
-Yes / No
+No
 ```
 
 ถ้าใช้ AI ต้องทำไฟล์นี้ด้วย:
@@ -251,7 +251,7 @@ ai_reflection.md
 ได้ถามเพื่อน TA ผู้สอน หรือบุคคลอื่นเพื่อขอความช่วยเหลือในโจทย์นี้หรือไม่
 
 ```text
-Yes / No
+No
 ```
 
 ถ้าใช่ ให้อธิบายสั้น ๆ ว่าได้รับความช่วยเหลือแบบใด
@@ -312,3 +312,10 @@ No
 | I did not copy code from another person. | |
 | If I received human help, I disclosed it in this file. | |
 | I submitted the final code to the OJ by myself. | |
+| I wrote this submission in my own words. | Yes |
+| I understand my final code. | Yes |
+| I recorded the real OJ status. | Yes |
+| I did not copy AI-generated text directly into this file. | Yes |
+| I did not copy code from another person. | Yes |
+| If I received human help, I disclosed it in this file. | Yes|
+| I submitted the final code to the OJ by myself. | Yes |
